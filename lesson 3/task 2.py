@@ -1,4 +1,4 @@
 a = 'Hello,'
-b = 'Pasha'
+b = 'Pavel'
 c = 'Smirnov'
 print (a + b + ' ' + c)
