@@ -1,0 +1,29 @@
+q = '12.5'
+
+print(int(q)) #error
+print(float(q)) #12.5
+print(str(q)) #12.5
+
+f = 50.78
+
+print(int(f)) #50
+print(float(f)) #50.78
+print(str(f)) #50.78
+
+l = 'hello'
+
+print(int(l)) #error
+print(float(l)) #error
+print(str(l)) #hello
+
+n = 8
+
+print(int(n)) #8
+print(float(n)) #8.0
+print(str(n)) #8
+
+x = '100.9'
+
+print(int(x)) #error
+print(float(x)) #100.9
+print(str(x)) #100.9
