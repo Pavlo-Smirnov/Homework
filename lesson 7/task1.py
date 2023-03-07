@@ -3,7 +3,7 @@
 
 str1 = "Ukraine is beautiful"
 my_dict = {}
-for word in str1:
+for word in str1:  # look fir .split() method it will help you
     my_dict[word] = my_dict.get(word, 0) + 1
     print(my_dict)
 

@@ -7,3 +7,6 @@ while i < range_len:
     print(range_object)
     i += 1
     print(max(range_object))
+
+# Why not just? :
+print(max(range_object))

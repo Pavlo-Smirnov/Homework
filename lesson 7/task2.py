@@ -14,5 +14,6 @@ stock = {
 
 total = 0
 for x in prices:
-    total = total + prices[x] * stock[x]
+    total = total + prices[x] * stock[x]  # total += prices[x] * stock[x]
+
     print(total)

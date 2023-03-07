@@ -9,7 +9,7 @@ d1 = set(list1)
 d2 = set(list2)
 i = 0
 
-while d1 & d2:
+while d1 & d2:  # What is the target of using while loop here?
     print(list1, list2)
     print(list(d1 & d2))
     i += 1
