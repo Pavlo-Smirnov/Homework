@@ -9,4 +9,3 @@ minus_30 = some_math(30)
 
 
 print(minus_30(10))
-
