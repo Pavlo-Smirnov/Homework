@@ -9,22 +9,22 @@ class Fraction:
     def __add__(self, other):
         if not isinstance(other, int):
             raise TypeError("You can use only integers")
-        return self.number + int(other)
+        return self.number + other
 
     def __sub__(self, other):
         if not isinstance(other, int):
             raise TypeError("You can use only integers")
-        return self.number - int(other)
+        return self.number - other
 
     def __truediv__(self, other):
         if not isinstance(other, int):
             raise TypeError("You can use only integers")
-        return self.number / int(other)
+        return self.number / other
 
     def __mul__(self, other):
         if not isinstance(other, int):
             raise TypeError("You can use only integers")
-        return self.number * int(other)
+        return self.number * other
 
     def __gt__(self, other):
         if not isinstance(other, int):
