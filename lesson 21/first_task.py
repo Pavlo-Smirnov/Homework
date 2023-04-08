@@ -23,3 +23,4 @@ class CustomFile:
 
     def read(self):
         return self.file.read()
+
