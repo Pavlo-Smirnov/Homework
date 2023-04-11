@@ -1,4 +1,4 @@
-class Fraction:
+class Integer:
     pass
 
     def __init__(self, number):
@@ -61,15 +61,15 @@ class Fraction:
 
 
 
-f1 = Fraction(50)
-print(f1 + 12)
-print(f1 - 12)
-print(f1 / 12)
-print(f1 * 12)
-f1.__gt__(49)
-f1.__lt__(49)
-f1.__eq__(50)
-f1.__ne__(75)
+in1 = Integer(50)
+print(in1 + 12)
+print(in1 - 12)
+print(in1 / 12)
+print(in1 * 12)
+in1.__gt__(49)
+in1.__lt__(49)
+in1.__eq__(50)
+in1.__ne__(75)
 
 
 
